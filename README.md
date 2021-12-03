@@ -20,12 +20,12 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ### Screenshot
 
-
+![cover](https://user-images.githubusercontent.com/53675070/144682610-a71d3251-5d4d-4b74-b8e3-1fe25f75f6cc.png)
 
 ### Links
 
-- Solution URL: https://github.com/CarryAEstranha/NTF-Preview-Card-Component/
-- Live Site URL: https://carryaestranha.github.io/NTF-Preview-Card-Component/
+- Solution URL: www.frontendmentor.io/solutions/fylo-data-storage-component-html-and-css-F3GKWGylb/
+- Live Site URL: https://carryaestranha.github.io/Fylo-Data-Storage-Component/
 
 ## My process
 
