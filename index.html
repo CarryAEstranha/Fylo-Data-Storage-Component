@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Fylo Data Storage Component</title>
+
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main id="page-main">
+        <div id="background"></div>
+
+        <section id="page-content">
+            <div id="left-component">
+                <img
+                    alt="Fylo logo"
+                    id="logo"
+                    src="./assets/logo.svg"
+                >
+
+                <div id="buttons-container">
+                    <button class="left-component-button">
+                        <img
+                            alt="Document"
+                            src="./assets/icon-document.svg"
+                        >
+                    </button>
+                    <button class="left-component-button">
+                        <img
+                            alt="Folder"
+                            src="./assets/icon-folder.svg"
+                        >
+                    </button>
+                    <button class="left-component-button">
+                        <img
+                            alt="Upload"
+                            src="./assets/icon-upload.svg"
+                        >
+                    </button>
+                </div>
+            </div>
+
+            <div id="right-component">
+                <div id="right-component-content">
+                    <h1 id="page-heading">
+                        You've used 
+                        <span>
+                            815 GB 
+                        </span>
+                        of your storage
+                    </h1>
+    
+                    <div id="storage-percentage-container">
+                        <div id="storage-percentage-bar">
+                            <div id="storage-percentage-bar-circle"></div>
+                        </div>
+                    </div>
+    
+                    <div id="storage-information-container">
+                        <p class="storage-information-paragraph">
+                            0 GB
+                        </p>
+                        <p class="storage-information-paragraph">
+                            1000 GB
+                        </p>
+                    </div>
+                </div>
+
+                <div id="right-component-balloon">
+                    <div id="ballon-content">
+                        <h2 id="balloon-heading">
+                            185
+                        </h2>
+
+                        <span id="span">
+                            GB LEFT
+                        </span>
+                    </div>
+                    
+                    <div id="balloon-detail">
+                        <div id="triangle"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
